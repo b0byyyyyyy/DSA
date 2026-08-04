@@ -4,8 +4,8 @@ public:
         if (n == 1) return 1;
         if (n == 2) return 2;
 
-        int prev2 = 1; // Ways to reach step 1
-        int prev1 = 2; // Ways to reach step 2
+        int prev2 = 1; 
+        int prev1 = 2;
         int curr = 0;
 
         for (int i = 3; i <= n; i++) {
