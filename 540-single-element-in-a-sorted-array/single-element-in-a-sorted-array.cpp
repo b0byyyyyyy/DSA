@@ -10,7 +10,8 @@ int singleNonDuplicate(vector<int>& nums) {
        while (low < high) {
            int mid = low + (high - low) / 2;
         
-        if (mid % 2 == 1) mid--;
+        if (mid % 2 == 1) 
+        mid--;
 
           if (nums[mid] == nums[mid + 1]) {
             
